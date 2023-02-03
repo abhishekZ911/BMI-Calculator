@@ -9,35 +9,35 @@
 </head>
 <body>
     <div class="centre-tab">
-        Bmi calculator
+        <div class="heading">Body Mass Index(BMI) Calculator</div>
         <div class="result-tab">
             <div>
-                Result <br>
-                <h4>Obese</h4>
+                <h4>Hope the result coincides with you expectation</h4>
             </div>
         </div>
         <div class="input-tab">
             <div class="gender-tab">
-            <h5>Gender</h5>
+            <h5><b>Gender</b></h5>
             <input type="radio" name="age" id="male">
             <label for="male">Male</label>
             <input type="radio" name="age" id="female">
             <label for="female">Female</label>
-        </div>
+            </div>
             <div class="age-tab">
-            <label for="age">Age</label>
-            <input type="number" class="age-input">
-        </div>
-        <div class="height-tab">
-            <label for="height" >Height in feets</label>
+            <label for="age"><b>Age &emsp;</b></label>
+            <input type="number" class="age-input" min="2" max="120">
+            </div>
+            <div class="height-tab">
+            <label for="height"> <b> Height in feets</b></label>
             <input type="number" min="2" class="height-input">
-        </div>
-        <div class="weight-tab">
-            <label for="weight" >Weight</label>
+            </div>
+            <div class="weight-tab">
+            <label for="weight"><b>Weight&emsp;</b></label>
             <input class="weight-input" type="range" name="weight" min="20" max="200" step="0.1">
-        </div>
-
-
+            </div>
+            <div class="button-tab">
+                <button>Submit</button>
+            </div>
         </div>
     </div>
 </body>

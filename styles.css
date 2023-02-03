@@ -1,6 +1,6 @@
 body{
     position: relative;
-    top: 60px;
+    top: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,12 @@ body{
     text-align: center;
     background-color: seagreen;
     font-size: 2em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 8px;
 }
+.heading{
+    color: white;
+} 
 .centre-tab h4,h5{
     margin: 2%;
 }
@@ -25,7 +28,7 @@ body{
     border: 1px solid white;
     border-radius: 5px;
     padding: 5%;
-    margin: 3% 1% 1%;
+    margin: 5% 1% 4%;
     font-size: 1.5rem;
     background-color: white;
 }
@@ -39,6 +42,7 @@ body{
     position: relative;
     margin: auto !important;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     border: 1px solid white;
     padding: 5%;
@@ -48,16 +52,36 @@ body{
     border-radius: 5px;
 }
 
-.input-tab .age-input{
+.input-tab .weight-input{
     color: grey;
     color: grey;
-    filter: hue-rotate(120deg);
+    filter: hue-rotate(178deg);
 }
 
 .input-tab .gender-tab,.age-tab,.weight-tab,.height-tab{
     position: relative;
+    width: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
     margin: auto;
-    padding: 0 0 4%;
+    padding: 2% 0 4%;
     text-align: center;
 }
 
+.input-tab h5{
+ font-size: 1.05rem;
+}
+
+.button-tab button{
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 18% 0 0;
+    padding: 8% 30% 4%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #24A0ED ; 
+}
+
+.button-tab button:hover{
+    background-color: #0e70ad;
+}
