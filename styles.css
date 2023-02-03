@@ -1,0 +1,63 @@
+body{
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+}
+
+.centre-tab{
+    margin: auto;
+    width: 45%;
+    padding: 2%;
+    text-align: center;
+    background-color: seagreen;
+    font-size: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+}
+.centre-tab h4,h5{
+    margin: 2%;
+}
+
+.result-tab{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 3% 1% 1%;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+.result-tab h4{
+    margin: 2%;
+    font-size: 1.4rem;
+}
+
+.input-tab{ 
+    position: relative;
+    margin: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    padding: 5%;
+    margin: 1%;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.input-tab .age-input{
+    color: grey;
+    color: grey;
+    filter: hue-rotate(120deg);
+}
+
+.input-tab .gender-tab,.age-tab,.weight-tab,.height-tab{
+    position: relative;
+    margin: auto;
+    padding: 0 0 4%;
+    text-align: center;
+}
+
