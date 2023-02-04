@@ -1,6 +1,7 @@
 body{
+    background-color: #A61F69;
     position: relative;
-    top: 35px;
+    top: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,25 +13,30 @@ body{
     width: 45%;
     padding: 2%;
     text-align: center;
-    background-color: seagreen;
+    background-color: #400E32;
     font-size: 2em;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 8px;
 }
 .heading{
     color: white;
+    font-family: 'Unbounded', cursive;
+    font-size: .7em;
 } 
 .centre-tab h4,h5{
     margin: 2%;
 }
 
 .result-tab{
+    height: 75px;
+    color: #1A0000;
     border: 1px solid white;
     border-radius: 5px;
     padding: 5%;
     margin: 5% 1% 4%;
-    font-size: 1.5rem;
-    background-color: white;
+    font-size: 1.4rem;
+    font-family: 'Mulish', sans-serif;
+    background-color: #ECECEC;
 }
 
 .result-tab h4{
@@ -44,39 +50,53 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    border: 1px solid white;
+    border: 1px solid ;
     padding: 5%;
     margin: 1%;
     font-size: 1.2rem;
-    background-color: white;
+    font-family: 'mulish', sans-serif;
+    background-color: #F2CD5C;
     border-radius: 5px;
 }
 
 .input-tab .weight-input{
-    color: grey;
-    color: grey;
+    width: 70%;
     filter: hue-rotate(178deg);
+}
+.age-input{
+    width: 70%;
 }
 
 .input-tab .gender-tab,.age-tab,.weight-tab,.height-tab{
     position: relative;
     width: 50%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
     margin: auto;
     padding: 2% 0 4%;
     text-align: center;
 }
 
+.height-input-feet, .height-input-inch{
+    margin: 0 0 3%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
 .input-tab h5{
  font-size: 1.05rem;
 }
 
-.button-tab button{
+
+.button-tab{
+    display: flex;
+    justify-content:space-between;
+    width: 50%;
+    
+}
+.submit-button{
     border: 1px solid black;
     border-radius: 8px;
-    margin: 18% 0 0;
-    padding: 8% 30% 4%;
+    margin: 9% 0 0;
+    padding: 2% 8% 2%;
     font-size: 1.2rem;
     color: white;
     background-color: #24A0ED ; 
