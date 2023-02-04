@@ -17,28 +17,33 @@
         </div>
         <div class="input-tab">
             <div class="gender-tab">
-            <h5><b>Gender</b></h5>
-            <input type="radio" name="age" id="male">
-            <label for="male">Male</label>
-            <input type="radio" name="age" id="female">
-            <label for="female">Female</label>
+                <h5><b>Gender</b></h5>
+                <input type="radio" name="age" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="age" id="female">
+                <label for="female">Female</label>
             </div>
             <div class="age-tab">
-            <label for="age"><b>Age &emsp;</b></label>
-            <input type="number" class="age-input" min="2" max="120">
+                <label for="age"><b>Age&emsp;</b></label>
+                <h6 class="age-value">nil years</h6>
+                <input class="age-input" onchange="getTheAge()" value="0" type="range" name="age" min="20" max="200" step="1">
             </div>
             <div class="height-tab">
-            <label for="height"> <b> Height in feets</b></label>
-            <input type="number" min="2" class="height-input">
+                <label for="height"> <b> Height in feets</b></label>
+                <input type="number" min="1" max="10" step="1" class="height-input-feet">
+                <label for="height"> <b> Height in inches</b></label>
+                <input type="number" min="1" max="12" step="1" class="height-input-inch">
             </div>
             <div class="weight-tab">
-            <label for="weight"><b>Weight&emsp;</b></label>
-            <input class="weight-input" type="range" name="weight" min="20" max="200" step="0.1">
+                <label for="weight"><b>Weight&emsp;</b></label>
+                <h6 class="weight-value">0.0 kg</h6>
+                <input class="weight-input" onchange="getTheWeight()" value="0" type="range" name="weight" min="2" max="200" step="0.1">
             </div>
             <div class="button-tab">
-                <button>Submit</button>
+                <button class="submit-button" onclick="colorChange()">Submit</button>
             </div>
         </div>
     </div>
 </body>
+<script src="/calculator.js"></script>
 </html>

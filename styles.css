@@ -85,3 +85,7 @@ body{
 .button-tab button:hover{
     background-color: #0e70ad;
 }
+
+.weight-value, .age-value{
+    margin: 3% 0;
+}
