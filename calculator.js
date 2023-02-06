@@ -1,14 +1,4 @@
-let count = 0;
 
-const colorChange = () =>{
-var wholeTab=document.getElementsByClassName('submit-button');
-
-count += 1;
-if(count%2 == 1)
-wholeTab[0].style.backgroundColor = 'red';
-else
-wholeTab[0].style.backgroundColor = 'black';
-}
 
 const getTheWeight = () =>{
     let weight = document.querySelector(".weight-input"); 
